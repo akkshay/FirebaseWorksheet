@@ -21,7 +21,12 @@ class ViewController: UIViewController {
     
     }
     
-    /* NOTE: This project is not meant to be run. Please answer the questions according to the documentation. The questions have been written in this XCode project for code completion and ease of read purposes. Answer any short answer questions as comments inside the question's function. */
+    /* INSTRUCTIONS: This project is not meant to be run. Please answer the questions according to the documentation. The questions have been written in this XCode project for code completion and ease of read purposes. Answer any short answer questions as comments inside the question's function. When reading the documentation for each section, please take notes as you see fit. */
+    
+    
+    /**** PART 1 - Firebase Auth 
+     Navigate to https://firebase.google.com/docs/auth/ios/manage-users and read the "Manage Users" & "Password Authentication" sections. Take notes so you can come back to them later.
+     ****/
     
     
     //  1. What function do you use to check if the user is currently signed in?
@@ -57,6 +62,11 @@ class ViewController: UIViewController {
         /* YOUR ANSWERE HERE*/
     }
     
+    /**** PART 2A - Firebase Database
+     Navigate to https://firebase.google.com/docs/database/ios/structure-data and read the "Structure Data" page.
+     ****/
+    
+    
     //  7. How is data structured in Firebase? Explain. Is Firebase a relational database? If so, explain why. If not, explain how it's different.
     func question7() {
         /* YOUR ANSWERE HERE*/
@@ -71,6 +81,10 @@ class ViewController: UIViewController {
     func question9() {
         /* YOUR ANSWERE HERE*/
     }
+    
+    /**** PART 2B - Firebase Database
+     Navigate to https://firebase.google.com/docs/database/ios/save-dataand read the "Save Data" and "Retrieve Data" pages.
+     ****/
     
     //  10. In the code below, where in your database does dbRef point to? Let's say you have a "Users" node below the root node in your database, and as of right now, you have 2 users under that Users node (one has UID 12345 and the other has UID 54321). Let's say the user with UID 12345 is Sameer and the user with UID 54321 is Virindh. Make a reference called sameerRef to your database that points to the user with UID 12345.
     func question10() {
@@ -100,6 +114,11 @@ class ViewController: UIViewController {
         let dbRef = FIRDatabase.database().reference()
         /* YOUR ANSWERE HERE*/
     }
+    
+    
+    /**** PART 3 - Firebase Storage
+     Navigate to https://firebase.google.com/docs/storage/ios/upload-files read the "Upload Files" and "Download Files" pages.
+     ****/
     
     //  15. Write the code to upload the image below to Firebase storage.
     func question15() {
