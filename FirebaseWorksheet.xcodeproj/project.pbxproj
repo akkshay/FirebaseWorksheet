@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DDF1D6BADD61F7BC851657D /* Pods_FirebaseWorksheetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2246777D963BED44AEDD7133 /* Pods_FirebaseWorksheetTests.framework */; };
+		1648F61F1D9FA246005B549E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1648F61E1D9FA246005B549E /* AppDelegate.swift */; };
+		1648F6211D9FA246005B549E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1648F6201D9FA246005B549E /* ViewController.swift */; };
+		1648F6241D9FA246005B549E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1648F6221D9FA246005B549E /* Main.storyboard */; };
+		1648F6271D9FA246005B549E /* FirebaseWorksheet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1648F6251D9FA246005B549E /* FirebaseWorksheet.xcdatamodeld */; };
+		1648F6291D9FA246005B549E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1648F6281D9FA246005B549E /* Assets.xcassets */; };
+		1648F62C1D9FA246005B549E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1648F62A1D9FA246005B549E /* LaunchScreen.storyboard */; };
+		1648F6371D9FA246005B549E /* FirebaseWorksheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1648F6361D9FA246005B549E /* FirebaseWorksheetTests.swift */; };
+		1648F6421D9FA246005B549E /* FirebaseWorksheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1648F6411D9FA246005B549E /* FirebaseWorksheetUITests.swift */; };
+		D6EB4829754E0A2A48169C31 /* Pods_FirebaseWorksheet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272711EDDF0B8EC5E922AC12 /* Pods_FirebaseWorksheet.framework */; };
+		D777648EF6E8D258984DB82D /* Pods_FirebaseWorksheetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DB1F713B1BAFF9C8AE6A39 /* Pods_FirebaseWorksheetUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1648F6331D9FA246005B549E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1648F6131D9FA246005B549E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1648F61A1D9FA246005B549E;
+			remoteInfo = FirebaseWorksheet;
+		};
+		1648F63E1D9FA246005B549E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1648F6131D9FA246005B549E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1648F61A1D9FA246005B549E;
+			remoteInfo = FirebaseWorksheet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1648F61B1D9FA246005B549E /* FirebaseWorksheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseWorksheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1648F61E1D9FA246005B549E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1648F6201D9FA246005B549E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1648F6231D9FA246005B549E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1648F6261D9FA246005B549E /* FirebaseWorksheet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirebaseWorksheet.xcdatamodel; sourceTree = "<group>"; };
+		1648F6281D9FA246005B549E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1648F62B1D9FA246005B549E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1648F62D1D9FA246005B549E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1648F6321D9FA246005B549E /* FirebaseWorksheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseWorksheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1648F6361D9FA246005B549E /* FirebaseWorksheetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseWorksheetTests.swift; sourceTree = "<group>"; };
+		1648F6381D9FA246005B549E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1648F63D1D9FA246005B549E /* FirebaseWorksheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseWorksheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1648F6411D9FA246005B549E /* FirebaseWorksheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseWorksheetUITests.swift; sourceTree = "<group>"; };
+		1648F6431D9FA246005B549E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2246777D963BED44AEDD7133 /* Pods_FirebaseWorksheetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseWorksheetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22839C0F916C842B1D4AC678 /* Pods-FirebaseWorksheet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseWorksheet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseWorksheet/Pods-FirebaseWorksheet.debug.xcconfig"; sourceTree = "<group>"; };
+		272711EDDF0B8EC5E922AC12 /* Pods_FirebaseWorksheet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseWorksheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		526A1EE9B3EF1934DC55EEED /* Pods-FirebaseWorksheet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseWorksheet.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseWorksheet/Pods-FirebaseWorksheet.release.xcconfig"; sourceTree = "<group>"; };
+		77A79D7561CFD76B1DFEC8B0 /* Pods-FirebaseWorksheetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseWorksheetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseWorksheetTests/Pods-FirebaseWorksheetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7948355430F4097F92CC8845 /* Pods-FirebaseWorksheetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseWorksheetUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseWorksheetUITests/Pods-FirebaseWorksheetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		82956AE560DB367E5FFDD3D1 /* Pods-FirebaseWorksheetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseWorksheetUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseWorksheetUITests/Pods-FirebaseWorksheetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE3579F1EBF0DDD06F81E6D7 /* Pods-FirebaseWorksheetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseWorksheetTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseWorksheetTests/Pods-FirebaseWorksheetTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9DB1F713B1BAFF9C8AE6A39 /* Pods_FirebaseWorksheetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseWorksheetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1648F6181D9FA246005B549E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6EB4829754E0A2A48169C31 /* Pods_FirebaseWorksheet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1648F62F1D9FA246005B549E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDF1D6BADD61F7BC851657D /* Pods_FirebaseWorksheetTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1648F63A1D9FA246005B549E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D777648EF6E8D258984DB82D /* Pods_FirebaseWorksheetUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1648F6121D9FA246005B549E = {
+			isa = PBXGroup;
+			children = (
+				1648F61D1D9FA246005B549E /* FirebaseWorksheet */,
+				1648F6351D9FA246005B549E /* FirebaseWorksheetTests */,
+				1648F6401D9FA246005B549E /* FirebaseWorksheetUITests */,
+				1648F61C1D9FA246005B549E /* Products */,
+				E4DA0CC2A88B9AD1D30C2D62 /* Pods */,
+				70084A04586A5D90233F1648 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1648F61C1D9FA246005B549E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1648F61B1D9FA246005B549E /* FirebaseWorksheet.app */,
+				1648F6321D9FA246005B549E /* FirebaseWorksheetTests.xctest */,
+				1648F63D1D9FA246005B549E /* FirebaseWorksheetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1648F61D1D9FA246005B549E /* FirebaseWorksheet */ = {
+			isa = PBXGroup;
+			children = (
+				1648F61E1D9FA246005B549E /* AppDelegate.swift */,
+				1648F6201D9FA246005B549E /* ViewController.swift */,
+				1648F6221D9FA246005B549E /* Main.storyboard */,
+				1648F6281D9FA246005B549E /* Assets.xcassets */,
+				1648F62A1D9FA246005B549E /* LaunchScreen.storyboard */,
+				1648F62D1D9FA246005B549E /* Info.plist */,
+				1648F6251D9FA246005B549E /* FirebaseWorksheet.xcdatamodeld */,
+			);
+			path = FirebaseWorksheet;
+			sourceTree = "<group>";
+		};
+		1648F6351D9FA246005B549E /* FirebaseWorksheetTests */ = {
+			isa = PBXGroup;
+			children = (
+				1648F6361D9FA246005B549E /* FirebaseWorksheetTests.swift */,
+				1648F6381D9FA246005B549E /* Info.plist */,
+			);
+			path = FirebaseWorksheetTests;
+			sourceTree = "<group>";
+		};
+		1648F6401D9FA246005B549E /* FirebaseWorksheetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1648F6411D9FA246005B549E /* FirebaseWorksheetUITests.swift */,
+				1648F6431D9FA246005B549E /* Info.plist */,
+			);
+			path = FirebaseWorksheetUITests;
+			sourceTree = "<group>";
+		};
+		70084A04586A5D90233F1648 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				272711EDDF0B8EC5E922AC12 /* Pods_FirebaseWorksheet.framework */,
+				2246777D963BED44AEDD7133 /* Pods_FirebaseWorksheetTests.framework */,
+				D9DB1F713B1BAFF9C8AE6A39 /* Pods_FirebaseWorksheetUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4DA0CC2A88B9AD1D30C2D62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22839C0F916C842B1D4AC678 /* Pods-FirebaseWorksheet.debug.xcconfig */,
+				526A1EE9B3EF1934DC55EEED /* Pods-FirebaseWorksheet.release.xcconfig */,
+				77A79D7561CFD76B1DFEC8B0 /* Pods-FirebaseWorksheetTests.debug.xcconfig */,
+				AE3579F1EBF0DDD06F81E6D7 /* Pods-FirebaseWorksheetTests.release.xcconfig */,
+				82956AE560DB367E5FFDD3D1 /* Pods-FirebaseWorksheetUITests.debug.xcconfig */,
+				7948355430F4097F92CC8845 /* Pods-FirebaseWorksheetUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1648F61A1D9FA246005B549E /* FirebaseWorksheet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1648F6461D9FA246005B549E /* Build configuration list for PBXNativeTarget "FirebaseWorksheet" */;
+			buildPhases = (
+				1A91F0EDDBD1840598EBED99 /* [CP] Check Pods Manifest.lock */,
+				1648F6171D9FA246005B549E /* Sources */,
+				1648F6181D9FA246005B549E /* Frameworks */,
+				1648F6191D9FA246005B549E /* Resources */,
+				236050845DFD5943909751B7 /* [CP] Embed Pods Frameworks */,
+				549FE5255701752BF5437B24 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaseWorksheet;
+			productName = FirebaseWorksheet;
+			productReference = 1648F61B1D9FA246005B549E /* FirebaseWorksheet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1648F6311D9FA246005B549E /* FirebaseWorksheetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1648F6491D9FA246005B549E /* Build configuration list for PBXNativeTarget "FirebaseWorksheetTests" */;
+			buildPhases = (
+				7A7B1B4949779C9A28BB5CAB /* [CP] Check Pods Manifest.lock */,
+				1648F62E1D9FA246005B549E /* Sources */,
+				1648F62F1D9FA246005B549E /* Frameworks */,
+				1648F6301D9FA246005B549E /* Resources */,
+				F53EBC50D645AE9F46548DB5 /* [CP] Embed Pods Frameworks */,
+				EEB5FD81B7211E387BEFDF49 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1648F6341D9FA246005B549E /* PBXTargetDependency */,
+			);
+			name = FirebaseWorksheetTests;
+			productName = FirebaseWorksheetTests;
+			productReference = 1648F6321D9FA246005B549E /* FirebaseWorksheetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1648F63C1D9FA246005B549E /* FirebaseWorksheetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1648F64C1D9FA246005B549E /* Build configuration list for PBXNativeTarget "FirebaseWorksheetUITests" */;
+			buildPhases = (
+				C5DE13AF4EAF6E6BE0B0F9CB /* [CP] Check Pods Manifest.lock */,
+				1648F6391D9FA246005B549E /* Sources */,
+				1648F63A1D9FA246005B549E /* Frameworks */,
+				1648F63B1D9FA246005B549E /* Resources */,
+				2DEDEFFEA7C0408BA3C5A798 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1648F63F1D9FA246005B549E /* PBXTargetDependency */,
+			);
+			name = FirebaseWorksheetUITests;
+			productName = FirebaseWorksheetUITests;
+			productReference = 1648F63D1D9FA246005B549E /* FirebaseWorksheetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1648F6131D9FA246005B549E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Akkshay Khoslaa";
+				TargetAttributes = {
+					1648F61A1D9FA246005B549E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4X45GCW87V;
+						ProvisioningStyle = Automatic;
+					};
+					1648F6311D9FA246005B549E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4X45GCW87V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1648F61A1D9FA246005B549E;
+					};
+					1648F63C1D9FA246005B549E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4X45GCW87V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1648F61A1D9FA246005B549E;
+					};
+				};
+			};
+			buildConfigurationList = 1648F6161D9FA246005B549E /* Build configuration list for PBXProject "FirebaseWorksheet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1648F6121D9FA246005B549E;
+			productRefGroup = 1648F61C1D9FA246005B549E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1648F61A1D9FA246005B549E /* FirebaseWorksheet */,
+				1648F6311D9FA246005B549E /* FirebaseWorksheetTests */,
+				1648F63C1D9FA246005B549E /* FirebaseWorksheetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1648F6191D9FA246005B549E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1648F62C1D9FA246005B549E /* LaunchScreen.storyboard in Resources */,
+				1648F6291D9FA246005B549E /* Assets.xcassets in Resources */,
+				1648F6241D9FA246005B549E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1648F6301D9FA246005B549E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1648F63B1D9FA246005B549E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A91F0EDDBD1840598EBED99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		236050845DFD5943909751B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseWorksheet/Pods-FirebaseWorksheet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DEDEFFEA7C0408BA3C5A798 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseWorksheetUITests/Pods-FirebaseWorksheetUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		549FE5255701752BF5437B24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseWorksheet/Pods-FirebaseWorksheet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A7B1B4949779C9A28BB5CAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5DE13AF4EAF6E6BE0B0F9CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEB5FD81B7211E387BEFDF49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseWorksheetTests/Pods-FirebaseWorksheetTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F53EBC50D645AE9F46548DB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseWorksheetTests/Pods-FirebaseWorksheetTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1648F6171D9FA246005B549E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1648F6211D9FA246005B549E /* ViewController.swift in Sources */,
+				1648F61F1D9FA246005B549E /* AppDelegate.swift in Sources */,
+				1648F6271D9FA246005B549E /* FirebaseWorksheet.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1648F62E1D9FA246005B549E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1648F6371D9FA246005B549E /* FirebaseWorksheetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1648F6391D9FA246005B549E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1648F6421D9FA246005B549E /* FirebaseWorksheetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1648F6341D9FA246005B549E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1648F61A1D9FA246005B549E /* FirebaseWorksheet */;
+			targetProxy = 1648F6331D9FA246005B549E /* PBXContainerItemProxy */;
+		};
+		1648F63F1D9FA246005B549E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1648F61A1D9FA246005B549E /* FirebaseWorksheet */;
+			targetProxy = 1648F63E1D9FA246005B549E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1648F6221D9FA246005B549E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1648F6231D9FA246005B549E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1648F62A1D9FA246005B549E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1648F62B1D9FA246005B549E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1648F6441D9FA246005B549E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1648F6451D9FA246005B549E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1648F6471D9FA246005B549E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22839C0F916C842B1D4AC678 /* Pods-FirebaseWorksheet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4X45GCW87V;
+				INFOPLIST_FILE = FirebaseWorksheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khoslaa.FirebaseWorksheet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1648F6481D9FA246005B549E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 526A1EE9B3EF1934DC55EEED /* Pods-FirebaseWorksheet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4X45GCW87V;
+				INFOPLIST_FILE = FirebaseWorksheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khoslaa.FirebaseWorksheet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1648F64A1D9FA246005B549E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A79D7561CFD76B1DFEC8B0 /* Pods-FirebaseWorksheetTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4X45GCW87V;
+				INFOPLIST_FILE = FirebaseWorksheetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khoslaa.FirebaseWorksheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseWorksheet.app/FirebaseWorksheet";
+			};
+			name = Debug;
+		};
+		1648F64B1D9FA246005B549E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE3579F1EBF0DDD06F81E6D7 /* Pods-FirebaseWorksheetTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4X45GCW87V;
+				INFOPLIST_FILE = FirebaseWorksheetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khoslaa.FirebaseWorksheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseWorksheet.app/FirebaseWorksheet";
+			};
+			name = Release;
+		};
+		1648F64D1D9FA246005B549E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82956AE560DB367E5FFDD3D1 /* Pods-FirebaseWorksheetUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4X45GCW87V;
+				INFOPLIST_FILE = FirebaseWorksheetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khoslaa.FirebaseWorksheetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FirebaseWorksheet;
+			};
+			name = Debug;
+		};
+		1648F64E1D9FA246005B549E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7948355430F4097F92CC8845 /* Pods-FirebaseWorksheetUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4X45GCW87V;
+				INFOPLIST_FILE = FirebaseWorksheetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khoslaa.FirebaseWorksheetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FirebaseWorksheet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1648F6161D9FA246005B549E /* Build configuration list for PBXProject "FirebaseWorksheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1648F6441D9FA246005B549E /* Debug */,
+				1648F6451D9FA246005B549E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1648F6461D9FA246005B549E /* Build configuration list for PBXNativeTarget "FirebaseWorksheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1648F6471D9FA246005B549E /* Debug */,
+				1648F6481D9FA246005B549E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1648F6491D9FA246005B549E /* Build configuration list for PBXNativeTarget "FirebaseWorksheetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1648F64A1D9FA246005B549E /* Debug */,
+				1648F64B1D9FA246005B549E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1648F64C1D9FA246005B549E /* Build configuration list for PBXNativeTarget "FirebaseWorksheetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1648F64D1D9FA246005B549E /* Debug */,
+				1648F64E1D9FA246005B549E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1648F6251D9FA246005B549E /* FirebaseWorksheet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1648F6261D9FA246005B549E /* FirebaseWorksheet.xcdatamodel */,
+			);
+			currentVersion = 1648F6261D9FA246005B549E /* FirebaseWorksheet.xcdatamodel */;
+			path = FirebaseWorksheet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1648F6131D9FA246005B549E /* Project object */;
+}
